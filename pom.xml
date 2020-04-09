@@ -9,11 +9,35 @@
 
 	<name>VDMSApiClient</name>
 	<description>API Client for Verizon Digital Media Services</description>
+    <url>https://github.com/conditionallyconvergent/vdms-api-client</url>
+
+    <developers>
+        <developer>
+            <name>Alex Basson</name>
+            <email>alexbasson@gmail.com</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/conditionallyconvergent/vdms-api-client</url>
+        <connection>scm:git:git@github.com:conditionallyconvergent/vdms-api-client.git</connection>
+        <developerConnection>scm:git:git@github.com:conditionallyconvergent/vdms-api-client.git</developerConnection>
+    </scm>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
